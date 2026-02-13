@@ -15,17 +15,17 @@ approvers:
 
 ## Risk Path
 
-**Analyzes:** [HAZ-US-001](HAZ-US-001.md)
-**Leads to:** [HS-002](../situations/HS-002.md)
-**Results in:** [HARM-001](../harms/HARM-001.md)
+**Analyzes:** [TA-001](../task-analyses/TA-001.md)
+**Leads to:** [HS-002](../../risk/situations/HS-002.md)
+**Results in:** [HARM-001](../../risk/harms/HARM-001.md)
 
 ## Inherent Risk Assessment
 
-| Factor            | Rating        | Justification                                  |
-| ----------------- | ------------- | ---------------------------------------------- |
-| Severity          | 4 (Critical)  | Dismissed detection could lead to stroke       |
+| Factor            | Rating        | Justification                                |
+| ----------------- | ------------- | -------------------------------------------- |
+| Severity          | 4 (Critical)  | Dismissed detection could lead to stroke     |
 | Probability       | 2 (Remote)    | Clinicians generally trained, but errors occur |
-| **Inherent Risk** | **8 - ALARP** | Reduce as low as reasonably practicable        |
+| **Inherent Risk** | **8 - ALARP** | Reduce as low as reasonably practicable      |
 
 ## Risk Controls
 
