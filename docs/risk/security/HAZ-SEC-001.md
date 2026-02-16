@@ -2,7 +2,7 @@
 id: HAZ-SEC-001
 title: Attacker Exploits API to Access Patient Records
 status: approved
-author: engineering@pactosigna.com
+author: rune@ords.io
 reviewers:
   - quality
   - security

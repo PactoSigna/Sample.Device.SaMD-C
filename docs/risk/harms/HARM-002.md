@@ -3,7 +3,7 @@ id: HARM-002
 title: Delayed Treatment Initiation
 status: approved
 severity: 3
-author: quality@pactosigna.com
+author: rune@ords.io
 reviewers:
   - clinical
 approvers:

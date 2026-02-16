@@ -2,7 +2,7 @@
 id: HAZ-SW-001
 title: Algorithm Fails to Detect Irregular Rhythm
 status: approved
-author: engineering@pactosigna.com
+author: rune@ords.io
 reviewers:
   - quality
 approvers:

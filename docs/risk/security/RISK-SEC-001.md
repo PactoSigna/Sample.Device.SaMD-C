@@ -2,7 +2,7 @@
 id: RISK-SEC-001
 title: Unauthorized Access to Patient Detection Data
 status: approved
-author: engineering@pactosigna.com
+author: rune@ords.io
 reviewers:
   - quality
   - security

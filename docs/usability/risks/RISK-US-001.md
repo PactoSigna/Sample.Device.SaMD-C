@@ -2,7 +2,7 @@
 id: RISK-US-001
 title: Misinterpretation of Detection Results
 status: approved
-author: engineering@pactosigna.com
+author: rune@ords.io
 reviewers:
   - quality
   - clinical

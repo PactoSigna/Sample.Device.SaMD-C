@@ -3,7 +3,7 @@ id: HARM-001
 title: Stroke from Untreated AFib
 status: approved
 severity: 4
-author: quality@pactosigna.com
+author: rune@ords.io
 reviewers:
   - clinical
 approvers:

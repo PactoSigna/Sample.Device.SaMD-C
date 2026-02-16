@@ -2,7 +2,7 @@
 id: RISK-SW-001
 title: False Negative Detection Risk
 status: approved
-author: engineering@pactosigna.com
+author: rune@ords.io
 reviewers:
   - quality
 approvers:
