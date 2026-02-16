@@ -7,8 +7,8 @@ reviewers:
   - quality
   - security
 approvers:
-  - engineering-lead
-  - quality-lead
+  - engineering
+  - quality
 analyzes: SRS-005
 ---
 

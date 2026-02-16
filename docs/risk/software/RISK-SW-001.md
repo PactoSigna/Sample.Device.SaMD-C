@@ -6,8 +6,7 @@ author: rune@ords.io
 reviewers:
   - quality
 approvers:
-  - quality-lead
-  - regulatory
+  - quality
 ---
 
 # Risk Analysis: False Negative Detection Risk

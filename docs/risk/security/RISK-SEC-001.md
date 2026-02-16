@@ -7,8 +7,7 @@ reviewers:
   - quality
   - security
 approvers:
-  - quality-lead
-  - regulatory
+  - quality
 ---
 
 # Risk Analysis: Unauthorized Access to Patient Detection Data

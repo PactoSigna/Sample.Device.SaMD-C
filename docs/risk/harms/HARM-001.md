@@ -5,9 +5,9 @@ status: approved
 severity: 4
 author: rune@ords.io
 reviewers:
-  - clinical
+  - quality
 approvers:
-  - quality-lead
+  - quality
 ---
 
 # Harm: Stroke from Untreated Atrial Fibrillation

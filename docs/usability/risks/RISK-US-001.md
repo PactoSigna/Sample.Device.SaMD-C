@@ -5,10 +5,8 @@ status: approved
 author: rune@ords.io
 reviewers:
   - quality
-  - clinical
 approvers:
-  - quality-lead
-  - regulatory
+  - quality
 ---
 
 # Risk Analysis: Misinterpretation of Detection Results

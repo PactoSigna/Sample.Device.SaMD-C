@@ -6,8 +6,8 @@ author: rune@ords.io
 reviewers:
   - quality
 approvers:
-  - engineering-lead
-  - quality-lead
+  - engineering
+  - quality
 analyzes: SRS-002
 ---
 
