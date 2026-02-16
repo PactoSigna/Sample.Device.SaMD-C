@@ -39,4 +39,4 @@ An unauthorized actor exploits an API vulnerability or weak authentication mecha
 
 This hazard can lead to:
 
-- [HS-001](../situations/HS-001.md) - Patient with undetected AFib does not seek treatment
+- [HS-003](../situations/HS-003.md) - Unauthorized access to patient detection records
