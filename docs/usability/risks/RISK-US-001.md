@@ -34,7 +34,7 @@ approvers:
 Require clear visual indicators (color coding, numerical percentage) that clinicians can interpret at a glance.
 
 **Derives to:** [SRS-003](../../software-requirements/SRS-003.md)
-**Verification:** [TC-004](../../test/TC-004.md)
+**Verification:** [TP-004](../../test/protocols/TP-004.md)
 
 ## Residual Risk Assessment
 

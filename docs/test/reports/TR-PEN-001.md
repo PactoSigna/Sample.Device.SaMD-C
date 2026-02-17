@@ -1,5 +1,5 @@
 ---
-id: PT-2026-001
+id: TR-PEN-001
 title: "Penetration Test Report: CardioSense Security Assessment"
 status: approved
 author: rune@ords.io
@@ -7,15 +7,15 @@ reviewers:
   - security
 approvers:
   - quality
-source: pentest-report.pdf
+source: ../pentest-report.pdf
 ---
 
-# Penetration Test Report - PT-2026-001
+# Penetration Test Report - TR-PEN-001
 
 This penetration test report was prepared by SecureHealth Consulting Ltd for the CardioSense SaMD (Class C) application. The assessment covers OWASP Top 10, API security, authentication, encryption, and cloud infrastructure.
 
 ## Traceability
 
-**Verifies:** [SRS-005](../software-requirements/SRS-005.md) - API Authentication & Authorization
-**Related to:** [HAZ-SEC-001](../cybersecurity/risks/HAZ-SEC-001.md) - Security Hazard Analysis
-**Related to:** [RISK-SEC-001](../cybersecurity/risks/RISK-SEC-001.md) - Security Risk Assessment
+**Verifies:** [SRS-005](../../software-requirements/SRS-005.md) - API Authentication & Authorization
+**Related to:** [HAZ-SEC-001](../../cybersecurity/risks/HAZ-SEC-001.md) - Security Hazard Analysis
+**Related to:** [RISK-SEC-001](../../cybersecurity/risks/RISK-SEC-001.md) - Security Risk Assessment

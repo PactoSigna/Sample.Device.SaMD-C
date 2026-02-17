@@ -34,7 +34,7 @@ approvers:
 
 Require authenticated sessions with role-based access control for all patient data endpoints.
 
-**Verification:** [TC-002](../../test/TC-002.md)
+**Verification:** [TP-002](../../test/protocols/TP-002.md)
 
 ### [SRS-006](../../software-requirements/SRS-006.md) - Data Encryption at Rest and in Transit
 
@@ -42,7 +42,7 @@ Require authenticated sessions with role-based access control for all patient da
 
 All patient data encrypted using AES-256 at rest and TLS 1.2+ in transit.
 
-**Verification:** [TC-002](../../test/TC-002.md)
+**Verification:** [TP-002](../../test/protocols/TP-002.md)
 
 ## Residual Risk Assessment
 
