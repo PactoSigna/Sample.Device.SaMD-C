@@ -14,8 +14,8 @@ approvers:
 ## Risk Path
 
 **Analyzes:** [HAZ-SW-001](HAZ-SW-001.md)
-**Leads to:** [HS-001](../situations/HS-001.md)
-**Results in:** [HARM-001](../harms/HARM-001.md)
+**Leads to:** [HS-001](../../risk/situations/HS-001.md)
+**Results in:** [HARM-001](../../risk/harms/HARM-001.md)
 
 ## Inherent Risk Assessment
 
@@ -33,7 +33,7 @@ approvers:
 
 Require algorithm trained on >=10,000 recordings with >=95% sensitivity validation.
 
-**Verification:** [TC-001](../../test/TC-001.md)
+**Verification:** [TP-001](../../test/protocols/TP-001.md)
 
 ### [SRS-004](../../software-requirements/SRS-004.md) - Signal Quality Threshold
 
@@ -41,7 +41,7 @@ Require algorithm trained on >=10,000 recordings with >=95% sensitivity validati
 
 Suppress results when signal quality is poor, preventing unreliable negative results.
 
-**Verification:** [TC-003](../../test/TC-003.md)
+**Verification:** [TP-003](../../test/protocols/TP-003.md)
 
 ## Residual Risk Assessment
 

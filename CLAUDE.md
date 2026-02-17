@@ -15,15 +15,24 @@ The device analyzes ECG data to detect atrial fibrillation (AFib). The documenta
 | `docs/software-requirements/` | Software Requirement | `SRS-` | SRS-001 |
 | `docs/architecture/` | High-Level Design | `HLD-` | HLD-001 |
 | `docs/design/` | Software Design | `SDD-` | SDD-001 |
-| `docs/risk/software/` | Software Risk / Hazard | `RISK-SW-`, `HAZ-SW-` | RISK-SW-001 |
-| `docs/risk/security/` | Security Risk / Hazard | `RISK-SEC-`, `HAZ-SEC-` | HAZ-SEC-001 |
+| `docs/test/protocols/` | Test Protocol | `TP-` | TP-001 |
+| `docs/test/reports/` | Test Report | `TR-` | TR-001 |
+| `docs/risk/plans/` | Risk Management Plan | `RMP-` | RMP-001 |
 | `docs/risk/situations/` | Hazardous Situation | `HS-` | HS-001 |
 | `docs/risk/harms/` | Harm | `HARM-` | HARM-001 |
-| `docs/test/` | Test Case / Penetration Test | `TC-`, `PT-` | TC-001 |
+| `docs/software/plans/` | Software Development Plan | `DEV-PLAN-` | DEV-PLAN-001 |
+| `docs/software/risks/` | Software Risk / Hazard | `RISK-SW-`, `HAZ-SW-` | RISK-SW-001 |
+| `docs/software/soup/` | SOUP Register | `SOUP-` | SOUP-001 |
+| `docs/cybersecurity/plans/` | Cybersecurity Plan | `CSPLAN-` | CSPLAN-001 |
+| `docs/cybersecurity/risks/` | Security Risk / Hazard | `RISK-SEC-`, `HAZ-SEC-` | HAZ-SEC-001 |
+| `docs/cybersecurity/sbom/` | Software Bill of Materials | `SBOM-` | SBOM-001 |
+| `docs/clinical/` | Clinical Evaluation Plan / Report | `CEP-`, `CER-` | CEP-001 |
+| `docs/post-market/` | Post-Market Surveillance Plan | `PMS-` | PMS-001 |
+| `docs/labeling/` | Labeling / IFU | `LBL-` | LBL-001 |
 | `docs/usability/` | Usability Engineering Plan | `UEP-` | UEP-001 |
 | `docs/usability/use-specifications/` | Use Specification | `US-` | US-001 |
 | `docs/usability/task-analyses/` | Task Analysis | `TA-` | TA-001 |
-| `docs/usability/evaluations/` | Usability Evaluation | `FE-` | FE-001 |
+| `docs/usability/evaluations/` | Usability / Summative Evaluation | `UE-`, `SE-`, `FE-` | SE-001 |
 | `docs/usability/risks/` | Usability Risk | `RISK-US-` | RISK-US-001 |
 
 ## Frontmatter Schema
@@ -49,12 +58,12 @@ Optional type-specific fields:
 |-------|---------|---------|
 | `derives_from` | PRS, SRS | `derives_from: UN-001` |
 | `implements` | HLD, SDD | `implements: SRS-001` |
-| `verified_by` | PRS, SRS | `verified_by: TC-001` |
+| `verified_by` | PRS, SRS | `verified_by: TP-001` |
 | `analyzes` | RISK, HAZ | `analyzes: SRS-005` |
 | `mitigates` | SRS, PRS | `mitigates: HAZ-SW-001` |
 | `severity` | HARM | `severity: 4` |
 | `probability` | HS | `probability: 3` |
-| `source` | PT | `source: pentest-report.pdf` |
+| `source` | TR | `source: ../pentest-report.pdf` |
 
 ## Traceability Link Types
 
@@ -62,7 +71,7 @@ Optional type-specific fields:
 |-----------|-----------|---------|
 | `derives_from` | Requirement --> User Need | PRS-001 derives from UN-001 |
 | `implements` | Architecture --> Requirement | HLD-001 implements SRS-001 |
-| `verified_by` | Test --> Requirement | TC-001 verifies PRS-001 |
+| `verified_by` | Test --> Requirement | TP-001 verifies PRS-001 |
 | `mitigates` | Requirement --> Hazard | PRS-004 mitigates HAZ-SW-001 |
 | `leads_to` | Hazard --> Situation | HAZ-SW-001 leads to HS-001 |
 | `results_in` | Situation --> Harm | HS-001 results in HARM-001 |
