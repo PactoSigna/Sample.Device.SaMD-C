@@ -1,0 +1,6 @@
+device:
+  name: CardioSense
+  safety_class: C
+  classification:
+    eu: Class IIa
+    us: Class II
