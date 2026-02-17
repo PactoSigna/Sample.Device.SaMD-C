@@ -38,4 +38,4 @@ The R-R interval analysis algorithm fails to correctly identify atrial fibrillat
 
 This hazard can lead to:
 
-- [HS-001](../situations/HS-001.md) - Patient with undetected AFib does not seek treatment
+- [HS-001](../../risk/situations/HS-001.md) - Patient with undetected AFib does not seek treatment

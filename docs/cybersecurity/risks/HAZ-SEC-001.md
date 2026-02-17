@@ -39,4 +39,4 @@ An unauthorized actor exploits an API vulnerability or weak authentication mecha
 
 This hazard can lead to:
 
-- [HS-003](../situations/HS-003.md) - Unauthorized access to patient detection records
+- [HS-003](../../risk/situations/HS-003.md) - Unauthorized access to patient detection records

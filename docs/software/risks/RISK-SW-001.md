@@ -14,8 +14,8 @@ approvers:
 ## Risk Path
 
 **Analyzes:** [HAZ-SW-001](HAZ-SW-001.md)
-**Leads to:** [HS-001](../situations/HS-001.md)
-**Results in:** [HARM-001](../harms/HARM-001.md)
+**Leads to:** [HS-001](../../risk/situations/HS-001.md)
+**Results in:** [HARM-001](../../risk/harms/HARM-001.md)
 
 ## Inherent Risk Assessment
 
