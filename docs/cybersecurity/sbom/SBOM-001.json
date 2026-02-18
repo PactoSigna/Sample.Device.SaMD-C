@@ -1,0 +1,120 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "CardioSense",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "TensorFlow",
+      "version": "2.15.0",
+      "purl": "pkg:pypi/tensorflow@2.15.0",
+      "licenses": [{ "license": { "id": "Apache-2.0" } }]
+    },
+    {
+      "type": "library",
+      "name": "NumPy",
+      "version": "1.26.3",
+      "purl": "pkg:pypi/numpy@1.26.3",
+      "licenses": [{ "license": { "id": "BSD-3-Clause" } }]
+    },
+    {
+      "type": "library",
+      "name": "SciPy",
+      "version": "1.12.0",
+      "purl": "pkg:pypi/scipy@1.12.0",
+      "licenses": [{ "license": { "id": "BSD-3-Clause" } }]
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "2.1.4",
+      "purl": "pkg:pypi/pandas@2.1.4",
+      "licenses": [{ "license": { "id": "BSD-3-Clause" } }]
+    },
+    {
+      "type": "library",
+      "name": "h5py",
+      "version": "3.10.0",
+      "purl": "pkg:pypi/h5py@3.10.0",
+      "licenses": [{ "license": { "id": "BSD-3-Clause" } }]
+    },
+    {
+      "type": "library",
+      "name": "React Native",
+      "version": "0.73.4",
+      "purl": "pkg:npm/react-native@0.73.4",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "React",
+      "version": "18.2.0",
+      "purl": "pkg:npm/react@18.2.0",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "react-navigation",
+      "version": "6.1.9",
+      "purl": "pkg:npm/@react-navigation/native@6.1.9",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "react-native-ble-plx",
+      "version": "3.1.2",
+      "purl": "pkg:npm/react-native-ble-plx@3.1.2",
+      "licenses": [{ "license": { "id": "Apache-2.0" } }]
+    },
+    {
+      "type": "library",
+      "name": "react-native-encrypted-storage",
+      "version": "4.0.3",
+      "purl": "pkg:npm/react-native-encrypted-storage@4.0.3",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "Express.js",
+      "version": "4.18.2",
+      "purl": "pkg:npm/express@4.18.2",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "Firebase Admin SDK",
+      "version": "12.0.0",
+      "purl": "pkg:npm/firebase-admin@12.0.0",
+      "licenses": [{ "license": { "id": "Apache-2.0" } }]
+    },
+    {
+      "type": "library",
+      "name": "jsonwebtoken",
+      "version": "9.0.2",
+      "purl": "pkg:npm/jsonwebtoken@9.0.2",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "helmet",
+      "version": "7.1.0",
+      "purl": "pkg:npm/helmet@7.1.0",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    },
+    {
+      "type": "library",
+      "name": "cors",
+      "version": "2.8.5",
+      "purl": "pkg:npm/cors@2.8.5",
+      "licenses": [{ "license": { "id": "MIT" } }]
+    }
+  ]
+}
