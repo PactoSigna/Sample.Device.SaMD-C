@@ -28,7 +28,7 @@ approvers:
 
 ## Risk Controls
 
-### [SRS-005](../../software-requirements/SRS-005.md) - Authentication and Access Control
+### [SRS-005](../../software/requirements/SRS-005.md) - Authentication and Access Control
 
 **Reduces:** sequence_probability
 
@@ -36,7 +36,7 @@ Require authenticated sessions with role-based access control for all patient da
 
 **Verification:** [TP-002](../../test/protocols/TP-002.md)
 
-### [SRS-006](../../software-requirements/SRS-006.md) - Data Encryption at Rest and in Transit
+### [SRS-006](../../software/requirements/SRS-006.md) - Data Encryption at Rest and in Transit
 
 **Reduces:** sequence_probability
 
