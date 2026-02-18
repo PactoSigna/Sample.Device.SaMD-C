@@ -18,16 +18,16 @@ This register documents all Software of Unknown Provenance (SOUP) used in Cardio
 
 ## SOUP Items
 
-| ID | Component | Version | Purpose | Safety Risk Class | Verification |
-|----|-----------|---------|---------|-------------------|-------------|
-| SOUP-01 | TensorFlow | 2.15.0 | ML model training and inference for AFib detection | Class C — directly processes clinical data | Algorithm validation (TP-001) |
-| SOUP-02 | React Native | 0.73.4 | Mobile application framework | Class B — displays clinical results | UI integration tests |
-| SOUP-03 | Firebase Auth | 10.8.0 | User authentication and session management | Class B — access control | Auth integration tests |
-| SOUP-04 | Firebase Firestore | 10.8.0 | Cloud database for patient records | Class C — stores clinical data | Data integrity tests |
-| SOUP-05 | NumPy | 1.26.3 | Numerical computation for signal processing | Class C — part of detection pipeline | Algorithm validation (TP-001) |
-| SOUP-06 | SciPy | 1.12.0 | Signal filtering (bandpass, notch filters) | Class C — part of detection pipeline | Signal processing tests (TP-002) |
-| SOUP-07 | Express.js | 4.18.2 | API server framework | Class A — infrastructure only | API integration tests |
-| SOUP-08 | jsonwebtoken | 9.0.2 | JWT token generation and validation | Class B — authentication | Security tests (TR-PEN-001) |
+| ID | Component | Version | Supplier | Purpose | Safety Risk Class | Verification |
+|----|-----------|---------|----------|---------|-------------------|-------------|
+| SOUP-01 | TensorFlow | 2.15.0 | [SUP-002](../../../quality/suppliers/SUP-002.md) | ML model training and inference for AFib detection | Class C — directly processes clinical data | Algorithm validation (TP-001) |
+| SOUP-02 | React Native | 0.73.4 | [SUP-001](../../../quality/suppliers/SUP-001.md) | Mobile application framework | Class B — displays clinical results | UI integration tests |
+| SOUP-03 | Firebase Auth | 10.8.0 | [SUP-002](../../../quality/suppliers/SUP-002.md) | User authentication and session management | Class B — access control | Auth integration tests |
+| SOUP-04 | Firebase Firestore | 10.8.0 | [SUP-002](../../../quality/suppliers/SUP-002.md) | Cloud database for patient records | Class C — stores clinical data | Data integrity tests |
+| SOUP-05 | NumPy | 1.26.3 | --- | Numerical computation for signal processing | Class C — part of detection pipeline | Algorithm validation (TP-001) |
+| SOUP-06 | SciPy | 1.12.0 | --- | Signal filtering (bandpass, notch filters) | Class C — part of detection pipeline | Signal processing tests (TP-002) |
+| SOUP-07 | Express.js | 4.18.2 | --- | API server framework | Class A — infrastructure only | API integration tests |
+| SOUP-08 | jsonwebtoken | 9.0.2 | --- | JWT token generation and validation | Class B — authentication | Security tests (TR-PEN-001) |
 
 ## Evaluation Criteria
 
