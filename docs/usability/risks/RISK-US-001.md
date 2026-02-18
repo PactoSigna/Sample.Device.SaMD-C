@@ -27,13 +27,13 @@ approvers:
 
 ## Risk Controls
 
-### [PRS-003](../../product-requirements/PRS-003.md) - Clear Detection Confidence Indicators
+### [PRS-003](../../product/requirements/PRS-003.md) - Clear Detection Confidence Indicators
 
 **Reduces:** sequence_probability
 
 Require clear visual indicators (color coding, numerical percentage) that clinicians can interpret at a glance.
 
-**Derives to:** [SRS-003](../../software-requirements/SRS-003.md)
+**Derives to:** [SRS-003](../../software/requirements/SRS-003.md)
 **Verification:** [TP-004](../../test/protocols/TP-004.md)
 
 ## Residual Risk Assessment

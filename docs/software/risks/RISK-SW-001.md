@@ -27,7 +27,7 @@ approvers:
 
 ## Risk Controls
 
-### [SRS-002](../../software-requirements/SRS-002.md) - Validated ML Algorithm
+### [SRS-002](../../software/requirements/SRS-002.md) - Validated ML Algorithm
 
 **Reduces:** sequence_probability
 
@@ -35,7 +35,7 @@ Require algorithm trained on >=10,000 recordings with >=95% sensitivity validati
 
 **Verification:** [TP-001](../../test/protocols/TP-001.md)
 
-### [SRS-004](../../software-requirements/SRS-004.md) - Signal Quality Threshold
+### [SRS-004](../../software/requirements/SRS-004.md) - Signal Quality Threshold
 
 **Reduces:** sequence_probability
 

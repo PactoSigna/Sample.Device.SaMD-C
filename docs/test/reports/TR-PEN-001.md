@@ -16,6 +16,6 @@ This penetration test report was prepared by SecureHealth Consulting Ltd for the
 
 ## Traceability
 
-**Verifies:** [SRS-005](../../software-requirements/SRS-005.md) - API Authentication & Authorization
+**Verifies:** [SRS-005](../../software/requirements/SRS-005.md) - API Authentication & Authorization
 **Related to:** [HAZ-SEC-001](../../cybersecurity/risks/HAZ-SEC-001.md) - Security Hazard Analysis
 **Related to:** [RISK-SEC-001](../../cybersecurity/risks/RISK-SEC-001.md) - Security Risk Assessment
