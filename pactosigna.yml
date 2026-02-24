@@ -1,8 +1,9 @@
-schema_version: "1.0"
+schema_version: "1.1"
 
 device:
   name: CardioSense
   safety_class: C
+  udi_device_identifier: "(01)00884838049253(10)v2.1.0"
   classification:
     eu: Class IIa
     us: Class II
